@@ -8,9 +8,6 @@ This document serves as a starting point for documentation of GBIF Sweden servic
 - SSL/TLS Certificates are provided by Sectigo (through the IT department).
 - Most applications run in [Docker](https://www.docker.com/).
 
-### Application overview
-![GBIF Sweden Applications](images/GBIF-Sweden-Applications.png)
-
 ## DevOps
 Many devops tasks are automated using [Ansible](https://www.ansible.com/) and can be found, along with documentation, in the [gbif-install](https://github.com/GBIF-Sweden/gbif-install) repository.
 
