@@ -1,0 +1,400 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.8 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.8">
+  <diagram id="gbif-data-pipeline" name="GBIF data pipeline">
+    <mxGraphModel dx="1674" dy="849" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1900" pageHeight="1050" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nrm-servers" value="NRM Database Servers" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=11;fontColor=#111111;strokeWidth=1.2;swimlane;horizontal=0;startSize=24;rounded=0;collapsible=0;fillColor=#ffffff;swimlaneFillColor=#ffffff;strokeColor=#adb5a6;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="58" y="36" width="438" height="356" as="geometry" />
+        </mxCell>
+        <mxCell id="Zqkgbu-CkX-uedrUFWzb-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="nrm-servers" source="Zqkgbu-CkX-uedrUFWzb-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1212" y="104" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zqkgbu-CkX-uedrUFWzb-19" value="JDBC" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Zqkgbu-CkX-uedrUFWzb-18" vertex="1" connectable="0">
+          <mxGeometry x="-0.379" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zqkgbu-CkX-uedrUFWzb-1" value="&lt;div&gt;Birdringing Center&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="nrm-servers" vertex="1">
+          <mxGeometry x="33" y="38" width="127" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="Zqkgbu-CkX-uedrUFWzb-3" value="Fishbase" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="nrm-servers" vertex="1">
+          <mxGeometry x="33" y="203" width="127" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="specify" value="Specify7 server" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=11;fontColor=#111111;strokeWidth=1.2;rounded=1;arcSize=15;fillColor=#fafff5;strokeColor=#82a16b;" parent="nrm-servers" vertex="1">
+          <mxGeometry x="33" y="295" width="127" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zqkgbu-CkX-uedrUFWzb-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="nrm-servers" source="Zqkgbu-CkX-uedrUFWzb-8" target="Zqkgbu-CkX-uedrUFWzb-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zqkgbu-CkX-uedrUFWzb-8" value="Marinadaggdjur server" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=11;fontColor=#111111;strokeWidth=1.2;rounded=1;arcSize=15;fillColor=#fafff5;strokeColor=#82a16b;" parent="nrm-servers" vertex="1">
+          <mxGeometry x="30.5" y="123" width="129.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zqkgbu-CkX-uedrUFWzb-9" value="DwC CSV" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=11;fontColor=#111111;strokeWidth=1.2;shape=document;boundedLbl=1;size=0.2;fillColor=#ffffff;strokeColor=#8d917a;strokeColor=#977079;" parent="nrm-servers" vertex="1">
+          <mxGeometry x="252" y="132" width="102" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="filemaker-servers" value="FileMaker Servers" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=11;fontColor=#111111;strokeWidth=1.2;swimlane;horizontal=0;startSize=24;rounded=0;collapsible=0;fillColor=#ffffff;swimlaneFillColor=#ffffff;strokeColor=#adb5a6;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="58" y="409" width="438" height="354" as="geometry" />
+        </mxCell>
+        <mxCell id="Zqkgbu-CkX-uedrUFWzb-15" value="PAL FileMaker DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="filemaker-servers" vertex="1">
+          <mxGeometry x="33" y="9.5" width="97" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Zqkgbu-CkX-uedrUFWzb-17" value="BOT FileMaker DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="filemaker-servers" vertex="1">
+          <mxGeometry x="33" y="112" width="97" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Zqkgbu-CkX-uedrUFWzb-16" value="ZOO FileMaker DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="filemaker-servers" vertex="1">
+          <mxGeometry x="33" y="241" width="97" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gbif-server" value="GBIF-SE Server" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=11;fontColor=#111111;strokeWidth=1.2;swimlane;horizontal=0;startSize=24;rounded=0;collapsible=0;fillColor=#ffffff;swimlaneFillColor=#ffffff;strokeColor=#adb5a6;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="630" y="40" width="850" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="Zqkgbu-CkX-uedrUFWzb-7" value="MySQL" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="gbif-server" vertex="1">
+          <mxGeometry x="400" y="194" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="i5XhvcopRnCu4_oP6KhI-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="gbif-server" source="manual-sources">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="462.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="manual-sources" value="Manual/Static sources" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=11;fontColor=#111111;strokeWidth=1.2;shape=document;boundedLbl=1;size=0.2;fillColor=#ffffff;strokeColor=#8d917a;" parent="gbif-server" vertex="1">
+          <mxGeometry x="59" y="441" width="110" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="manual-etl" value="Custom/Manual&lt;br&gt;ETL" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=11;fontColor=#111111;strokeWidth=1.2;shape=process;size=0.1;fillColor=#fff9cf;strokeColor=#b2a257;" parent="gbif-server" vertex="1">
+          <mxGeometry x="236" y="439" width="110" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="sos-harvester" value="SOS DwCA&lt;br&gt;Harvester" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=11;fontColor=#111111;strokeWidth=1.2;shape=process;size=0.1;fillColor=#fff9cf;strokeColor=#b2a257;" parent="gbif-server" vertex="1">
+          <mxGeometry x="731" y="284" width="102" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="consumers" value="Consumers and Metadata" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=11;fontColor=#111111;strokeWidth=1.2;swimlane;horizontal=0;startSize=24;rounded=0;collapsible=0;fillColor=#ffffff;swimlaneFillColor=#ffffff;strokeColor=#adb5a6;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1538" y="37" width="302" height="371" as="geometry" />
+        </mxCell>
+        <mxCell id="sbdi" value="SBDI" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=11;fontColor=#111111;strokeWidth=1.2;rounded=1;arcSize=15;fillColor=#fafff5;strokeColor=#82a16b;" parent="consumers" vertex="1">
+          <mxGeometry x="53" y="143.5" width="80" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="external-servers" value="External Database Servers" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=11;fontColor=#111111;strokeWidth=1.2;swimlane;horizontal=0;startSize=24;rounded=0;collapsible=0;fillColor=#ffffff;swimlaneFillColor=#ffffff;strokeColor=#adb5a6;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="911" y="820" width="680" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="i5XhvcopRnCu4_oP6KhI-3" value="&lt;div&gt;LU Systematic monitoring&lt;/div&gt;&lt;div&gt;canmove-app.ekol.lu.se&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="external-servers">
+          <mxGeometry x="40" y="30" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="i5XhvcopRnCu4_oP6KhI-6" value="&lt;div&gt;GNM&lt;/div&gt;&lt;div&gt;172.160.250.4:2544&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="external-servers">
+          <mxGeometry x="429" y="30" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="i5XhvcopRnCu4_oP6KhI-5" value="&lt;div&gt;Herbarium GB&lt;/div&gt;&lt;div&gt;130.241.170.216&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="external-servers">
+          <mxGeometry x="310" y="30" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="i5XhvcopRnCu4_oP6KhI-4" value="&lt;div&gt;LU collections&lt;/div&gt;&lt;div&gt;130.235.132.76&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="external-servers">
+          <mxGeometry x="190" y="30" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="i5XhvcopRnCu4_oP6KhI-7" value="&lt;div&gt;SBDI Gateway&lt;/div&gt;&lt;div&gt;(ASV portal DBs)&lt;/div&gt;&lt;div&gt;192.121.209.106&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="external-servers">
+          <mxGeometry x="539" y="30" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="entomology" value="Entomology DwCA" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=11;fontColor=#111111;strokeWidth=1.2;shape=document;boundedLbl=1;size=0.2;fillColor=#ffffff;strokeColor=#8d917a;strokeColor=#977079;" parent="1" vertex="1">
+          <mxGeometry x="310" y="341" width="102" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="pal-csv" value="PAL CSV" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=11;fontColor=#111111;strokeWidth=1.2;swimlane;horizontal=0;startSize=21;rounded=0;collapsible=0;fillColor=#ffffff;swimlaneFillColor=#ffffff;strokeColor=#adb5a6;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="428" width="203" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="bot-csv" value="BOT CSV" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=11;fontColor=#111111;strokeWidth=1.2;swimlane;horizontal=0;startSize=21;rounded=0;collapsible=0;fillColor=#ffffff;swimlaneFillColor=#ffffff;strokeColor=#adb5a6;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="523" width="203" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="zoo-csv" value="ZOO CSV" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=11;fontColor=#111111;strokeWidth=1.2;swimlane;horizontal=0;startSize=21;rounded=0;collapsible=0;fillColor=#ffffff;swimlaneFillColor=#ffffff;strokeColor=#adb5a6;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="624" width="203" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="paleozoology" value="Paleozoology&lt;br&gt;CSV" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=11;fontColor=#111111;strokeWidth=1.2;shape=document;boundedLbl=1;size=0.2;fillColor=#ffffff;strokeColor=#8d917a;" parent="1" vertex="1">
+          <mxGeometry x="294" y="442" width="72" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="paleobotany" value="Paleobotany&lt;br&gt;CSV" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=11;fontColor=#111111;strokeWidth=1.2;shape=document;boundedLbl=1;size=0.2;fillColor=#ffffff;strokeColor=#8d917a;" parent="1" vertex="1">
+          <mxGeometry x="378" y="442" width="72" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="algae" value="Algae CSV" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=11;fontColor=#111111;strokeWidth=1.2;shape=document;boundedLbl=1;size=0.2;fillColor=#ffffff;strokeColor=#8d917a;" parent="1" vertex="1">
+          <mxGeometry x="294" y="529" width="72" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="fungi" value="Fungi CSV" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=11;fontColor=#111111;strokeWidth=1.2;shape=document;boundedLbl=1;size=0.2;fillColor=#ffffff;strokeColor=#8d917a;" parent="1" vertex="1">
+          <mxGeometry x="378" y="529" width="72" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="vascular-plants" value="Vascular Plants&lt;br&gt;CSV" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=11;fontColor=#111111;strokeWidth=1.2;shape=document;boundedLbl=1;size=0.2;fillColor=#ffffff;strokeColor=#8d917a;" parent="1" vertex="1">
+          <mxGeometry x="294" y="564" width="72" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="mosses" value="Mosses CSV" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=11;fontColor=#111111;strokeWidth=1.2;shape=document;boundedLbl=1;size=0.2;fillColor=#ffffff;strokeColor=#8d917a;" parent="1" vertex="1">
+          <mxGeometry x="378" y="564" width="72" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="aves" value="Aves CSV" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=11;fontColor=#111111;strokeWidth=1.2;shape=document;boundedLbl=1;size=0.2;fillColor=#ffffff;strokeColor=#8d917a;" parent="1" vertex="1">
+          <mxGeometry x="294" y="632" width="72" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="invertebrates" value="Invertebrates&lt;br&gt;CSV" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=11;fontColor=#111111;strokeWidth=1.2;shape=document;boundedLbl=1;size=0.2;fillColor=#ffffff;strokeColor=#8d917a;" parent="1" vertex="1">
+          <mxGeometry x="378" y="632" width="72" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="mammalia" value="Mammalia CSV" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=11;fontColor=#111111;strokeWidth=1.2;shape=document;boundedLbl=1;size=0.2;fillColor=#ffffff;strokeColor=#8d917a;" parent="1" vertex="1">
+          <mxGeometry x="294" y="683" width="72" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="invertebrate-type" value="Invertebrate&lt;br&gt;Type CSV" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=11;fontColor=#111111;strokeWidth=1.2;shape=document;boundedLbl=1;size=0.2;fillColor=#ffffff;strokeColor=#8d917a;" parent="1" vertex="1">
+          <mxGeometry x="378" y="683" width="72" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="fish" value="Fish CSV" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=11;fontColor=#111111;strokeWidth=1.2;shape=document;boundedLbl=1;size=0.2;fillColor=#ffffff;strokeColor=#8d917a;" parent="1" vertex="1">
+          <mxGeometry x="294" y="733" width="72" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="herptiles" value="Herptiles CSV" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=11;fontColor=#111111;strokeWidth=1.2;shape=document;boundedLbl=1;size=0.2;fillColor=#ffffff;strokeColor=#8d917a;" parent="1" vertex="1">
+          <mxGeometry x="378" y="733" width="72" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="entomology-copy" value="Entomology DwCA&lt;br&gt;copy" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=11;fontColor=#111111;strokeWidth=1.2;shape=document;boundedLbl=1;size=0.2;fillColor=#ffffff;strokeColor=#8d917a;strokeColor=#977079;" parent="1" vertex="1">
+          <mxGeometry x="689" y="341" width="110" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="local-csv" value="Local CSV copy" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=11;fontColor=#111111;strokeWidth=1.2;shape=document;boundedLbl=1;size=0.2;fillColor=#ffffff;strokeColor=#8d917a;" parent="1" vertex="1">
+          <mxGeometry x="689" y="409" width="110" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="fishbase-etl" value="Fishbase ETL" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=11;fontColor=#111111;strokeWidth=1.2;shape=process;size=0.1;fillColor=#fff9cf;strokeColor=#b2a257;" parent="1" vertex="1">
+          <mxGeometry x="866" y="252" width="110" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="dwca-etl" value="DwCA ETL" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=11;fontColor=#111111;strokeWidth=1.2;shape=process;size=0.1;fillColor=#fff9cf;strokeColor=#b2a257;" parent="1" vertex="1">
+          <mxGeometry x="866" y="341" width="110" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="csv-etl" value="CSV ETL" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=11;fontColor=#111111;strokeWidth=1.2;shape=process;size=0.1;fillColor=#fff9cf;strokeColor=#b2a257;" parent="1" vertex="1">
+          <mxGeometry x="866" y="409" width="110" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="dm-etl" value="DM ETL" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=11;fontColor=#111111;strokeWidth=1.2;shape=process;size=0.1;fillColor=#fff9cf;strokeColor=#b2a257;" parent="1" vertex="1">
+          <mxGeometry x="866" y="560" width="110" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="vm-etl" value="VM ETL" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=11;fontColor=#111111;strokeWidth=1.2;shape=process;size=0.1;fillColor=#fff9cf;strokeColor=#b2a257;" parent="1" vertex="1">
+          <mxGeometry x="866" y="636" width="110" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="ipt" value="IPT" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=11;fontColor=#111111;strokeWidth=1.2;rounded=1;arcSize=15;fillColor=#fafff5;strokeColor=#82a16b;" parent="1" vertex="1">
+          <mxGeometry x="1201" y="138" width="135" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="gbif" value="GBIF.org" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=11;fontColor=#111111;strokeWidth=1.2;rounded=1;arcSize=15;fillColor=#fafff5;strokeColor=#82a16b;" parent="1" vertex="1">
+          <mxGeometry x="1587" y="54" width="85" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="sos" value="SOS" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=11;fontColor=#111111;strokeWidth=1.2;rounded=1;arcSize=15;fillColor=#fafff5;strokeColor=#82a16b;" parent="1" vertex="1">
+          <mxGeometry x="1591" y="307" width="84" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="datacite" value="Datacite API" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=11;fontColor=#111111;strokeWidth=1.2;rounded=1;arcSize=15;fillColor=#fafff5;strokeColor=#82a16b;" parent="1" vertex="1">
+          <mxGeometry x="1739" y="75" width="84" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="researchdata" value="researchdata.se" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=11;fontColor=#111111;strokeWidth=1.2;rounded=1;arcSize=15;fillColor=#fafff5;strokeColor=#82a16b;" parent="1" vertex="1">
+          <mxGeometry x="1739" y="205" width="84" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="digitaltmuseum" value="digitaltmuseum" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=11;fontColor=#111111;strokeWidth=1.2;rounded=1;arcSize=15;fillColor=#fafff5;strokeColor=#82a16b;" parent="1" vertex="1">
+          <mxGeometry x="631" y="811" width="101" height="149" as="geometry" />
+        </mxCell>
+        <mxCell id="virtuellaherbariet" value="virtuellaherbariet" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=11;fontColor=#111111;strokeWidth=1.2;rounded=1;arcSize=15;fillColor=#fafff5;strokeColor=#82a16b;" parent="1" vertex="1">
+          <mxGeometry x="766" y="811" width="101" height="149" as="geometry" />
+        </mxCell>
+        <mxCell id="fishbase-to-etl" value="" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=11;fontColor=#111111;strokeWidth=1.2;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;endArrow=classic;endFill=1;strokeColor=#bd7463;dashed=1;dashPattern=8 5;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;" parent="1" target="fishbase-etl" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="274" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zqkgbu-CkX-uedrUFWzb-20" value="JDBC" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="fishbase-to-etl" vertex="1" connectable="0">
+          <mxGeometry x="0.0627" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="specify-dwca" value="DwCA" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=11;fontColor=#111111;strokeWidth=1.2;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;endArrow=classic;endFill=1;strokeColor=#73775d;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;" parent="1" source="specify" target="entomology" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="entomology-scp" value="" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=11;fontColor=#111111;strokeWidth=1.2;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;endArrow=classic;endFill=1;strokeColor=#73775d;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;" parent="1" source="entomology" target="entomology-copy" edge="1">
+          <mxGeometry x="0.0019" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zqkgbu-CkX-uedrUFWzb-21" value="JDBC" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="entomology-scp" vertex="1" connectable="0">
+          <mxGeometry x="0.0479" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="entomology-etl" value="" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=11;fontColor=#111111;strokeWidth=1.2;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;endArrow=classic;endFill=1;strokeColor=#73775d;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;" parent="1" source="entomology-copy" target="dwca-etl" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pal-export" value="CSV export" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=11;fontColor=#111111;strokeWidth=1.2;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;endArrow=classic;endFill=1;strokeColor=#73775d;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;" parent="1" target="pal-csv" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="193" y="459.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bot-export" value="CSV export" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=11;fontColor=#111111;strokeWidth=1.2;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;endArrow=classic;endFill=1;strokeColor=#73775d;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;" parent="1" target="bot-csv" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="193" y="560.4999999999998" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zoo-export" value="CSV export" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=11;fontColor=#111111;strokeWidth=1.2;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;endArrow=classic;endFill=1;strokeColor=#73775d;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;" parent="1" target="zoo-csv" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="193" y="690.4999999999998" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pal-scp" value="SCP" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=11;fontColor=#111111;strokeWidth=1.2;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;endArrow=classic;endFill=1;strokeColor=#73775d;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;" parent="1" source="pal-csv" target="local-csv" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="529" y="458" />
+              <mxPoint x="529" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bot-scp" value="" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=11;fontColor=#111111;strokeWidth=1.2;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;endArrow=classic;endFill=1;strokeColor=#73775d;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;" parent="1" source="bot-csv" target="local-csv" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="547" y="560" />
+              <mxPoint x="547" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zoo-scp" value="" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=11;fontColor=#111111;strokeWidth=1.2;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;endArrow=classic;endFill=1;strokeColor=#73775d;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;" parent="1" source="zoo-csv" target="local-csv" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="563" y="690" />
+              <mxPoint x="563" y="441" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="csv-to-etl" value="" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=11;fontColor=#111111;strokeWidth=1.2;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;endArrow=classic;endFill=1;strokeColor=#73775d;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;" parent="1" source="local-csv" target="csv-etl" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fishbase-mysql" value="" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=11;fontColor=#111111;strokeWidth=1.2;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;endArrow=classic;endFill=1;strokeColor=#bd7463;dashed=1;dashPattern=8 5;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.8;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;" parent="1" source="fishbase-etl" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1034" y="273.20000000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dwca-mysql" value="" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=11;fontColor=#111111;strokeWidth=1.2;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;endArrow=classic;endFill=1;strokeColor=#73775d;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.34;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;" parent="1" source="dwca-etl" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1068" y="362.5" />
+            </Array>
+            <mxPoint x="1068.3400000000001" y="307" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="csv-mysql" value="" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=11;fontColor=#111111;strokeWidth=1.2;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;endArrow=classic;endFill=1;strokeColor=#73775d;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;" parent="1" source="csv-etl" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1084" y="430.5" />
+            </Array>
+            <mxPoint x="1084.5" y="307" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="manual-mysql" value="" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=11;fontColor=#111111;strokeWidth=1.2;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;endArrow=classic;endFill=1;strokeColor=#73775d;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.67;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;" parent="1" source="manual-etl" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1101" y="498.5" />
+            </Array>
+            <mxPoint x="1101.67" y="307" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dm-mysql" value="" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=11;fontColor=#111111;strokeWidth=1.2;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;endArrow=classic;endFill=1;strokeColor=#bd7463;dashed=1;dashPattern=8 5;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.8;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;" parent="1" source="dm-etl" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1114" y="582.5" />
+            </Array>
+            <mxPoint x="1114.8000000000002" y="307" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vm-mysql" value="" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=11;fontColor=#111111;strokeWidth=1.2;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;endArrow=classic;endFill=1;strokeColor=#bd7463;dashed=1;dashPattern=8 5;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.95;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;" parent="1" source="vm-etl" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1129" y="658.5" />
+            </Array>
+            <mxPoint x="1129.9499999999998" y="307" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dm-api" value="API" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=11;fontColor=#111111;strokeWidth=1.2;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;endArrow=classic;endFill=1;strokeColor=#bd7463;dashed=1;dashPattern=8 5;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;" parent="1" source="digitaltmuseum" target="dm-etl" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="681" y="582.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vm-api" value="API" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=11;fontColor=#111111;strokeWidth=1.2;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;endArrow=classic;endFill=1;strokeColor=#bd7463;dashed=1;dashPattern=8 5;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;" parent="1" source="virtuellaherbariet" target="vm-etl" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="816" y="658.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ipt-gbif" value="DwCA" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=11;fontColor=#111111;strokeWidth=1.2;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;endArrow=classic;endFill=1;strokeColor=#73775d;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;" parent="1" source="ipt" target="gbif" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1504" y="180.5" />
+              <mxPoint x="1504" y="96.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ipt-sbdi" value="DwCA" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=11;fontColor=#111111;strokeWidth=1.2;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;endArrow=classic;endFill=1;strokeColor=#73775d;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;" parent="1" source="ipt" target="sbdi" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ipt-sos" value="DwCA" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=11;fontColor=#111111;strokeWidth=1.2;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;endArrow=classic;endFill=1;strokeColor=#73775d;exitX=1;exitY=0.74;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;" parent="1" source="ipt" target="sos" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1504" y="263.8" />
+              <mxPoint x="1504" y="328.25" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sos-harvest" value="" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=11;fontColor=#111111;strokeWidth=1.2;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;endArrow=classic;endFill=1;strokeColor=#73775d;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;" parent="1" source="sos" target="sos-harvester" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="harvester-ipt" value="" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=11;fontColor=#111111;strokeWidth=1.2;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;endArrow=classic;endFill=1;strokeColor=#73775d;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.88;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;" parent="1" source="sos-harvester" target="ipt" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1319" y="348.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gbif-eml" value="EML" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=11;fontColor=#111111;strokeWidth=1.2;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;endArrow=classic;endFill=1;strokeColor=#73775d;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;" parent="1" source="gbif" target="datacite" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="datacite-researchdata" value="" style="html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=11;fontColor=#111111;strokeWidth=1.2;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;endArrow=classic;endFill=1;strokeColor=#73775d;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;" parent="1" source="datacite" target="researchdata" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zqkgbu-CkX-uedrUFWzb-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.015;entryY=0.303;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Zqkgbu-CkX-uedrUFWzb-9" target="ipt" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zqkgbu-CkX-uedrUFWzb-12" value="HTTPS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Zqkgbu-CkX-uedrUFWzb-11" vertex="1" connectable="0">
+          <mxGeometry x="-0.6336" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i5XhvcopRnCu4_oP6KhI-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.556;entryY=0.994;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="i5XhvcopRnCu4_oP6KhI-5" target="ipt">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1300" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i5XhvcopRnCu4_oP6KhI-20" value="JDBC" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="i5XhvcopRnCu4_oP6KhI-14">
+          <mxGeometry x="0.0222" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i5XhvcopRnCu4_oP6KhI-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="i5XhvcopRnCu4_oP6KhI-7" target="ipt">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1505" y="780" />
+              <mxPoint x="1302" y="780" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i5XhvcopRnCu4_oP6KhI-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.674;entryY=1.003;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="i5XhvcopRnCu4_oP6KhI-6" target="ipt">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1290" y="319" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1390" y="800" />
+              <mxPoint x="1291" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i5XhvcopRnCu4_oP6KhI-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.448;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="i5XhvcopRnCu4_oP6KhI-4" target="ipt">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1156" y="800" />
+              <mxPoint x="1262" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i5XhvcopRnCu4_oP6KhI-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.359;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="i5XhvcopRnCu4_oP6KhI-3" target="ipt">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1021" y="780" />
+              <mxPoint x="1250" y="780" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
