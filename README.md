@@ -11,5 +11,9 @@ This document serves as a starting point for documentation of GBIF Sweden servic
 ## DevOps
 Many devops tasks are automated using [Ansible](https://www.ansible.com/) and can be found, along with documentation, in the [gbif-install](https://github.com/GBIF-Sweden/gbif-install) repository.
 
+## GBIF Sweden Data Flow
+
+![Data Flow overview](diagrams/gbif-data-pipeline.drawio.svg)
+
 ### Regular maintenance
 - [General](https://github.com/GBIF-Sweden/documentation-overview/wiki/General-maintenance)
